@@ -1,0 +1,5 @@
+[project]
+name = "PySide Project"
+
+[tool.pyside6-project]
+files = ["README.md", "mainwindow.py", "pyproject.toml.user", "requirements.txt", "theme.py", "ui_components.py", "workers.py"]
