@@ -6,11 +6,19 @@
 
 - 文件转换（合并栏目）
   - PDF 转 Word（`pdf2docx`）
+  <img width="453" height="323" alt="屏幕截图 2025-12-11 182140" src="https://github.com/user-attachments/assets/02d861cf-53ac-417d-87d6-417de8161c06" />
+
   - Word 转 PDF（`docx2pdf`，Windows 需安装 Microsoft Word）
+  <img width="453" height="323" alt="屏幕截图 2025-12-11 182150" src="https://github.com/user-attachments/assets/f62424ca-cae5-4d6c-a503-74537ce4518b" />
+
 - 报告提取（合并栏目）
   - 基础信息：姓名、性别、年龄、采样日期、标本类型、住院号、病理号、身份证号、送检日期、病历号、送检医生、送检单位、检测项目、检测方法、送检材料、临床诊断
+  <img width="453" height="323" alt="屏幕截图 2025-12-11 182155" src="https://github.com/user-attachments/assets/fa97d908-080f-4908-8152-23194dc4606c" />
+
   - 重排结果：姓名、检测号、重排基因、左断裂点位、右断裂点位（优先使用 `pdfplumber` 表格提取，配合稳健回退）
   - 突变数据：检测号、突变基因、转录本 ID、外显子、核苷酸改变、氨基酸改变、突变频率（`pdfplumber` 动态列匹配）
+  <img width="453" height="323" alt="屏幕截图 2025-12-11 182202" src="https://github.com/user-attachments/assets/a5b2bdfb-71e7-48d1-aff1-20ff4db5676f" />
+
 
 ## 界面亮点
 
